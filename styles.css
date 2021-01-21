@@ -135,14 +135,11 @@ h2
 .second-container
 {
     display: flex;
+    justify-content: space-between;
 
 }
 
-.hosting-container
-{
-    background-color: chartreuse;
-}
-
+/*hosting*/
 .hosting-grid img
 {
     width: 180px;
@@ -150,16 +147,34 @@ h2
     object-fit: cover;
 }
 
+.hosting-container
+{
+    background-color: chartreuse;
+    border-radius: 15px;
+    width: 1050px;
+}
+
+.hosting-title
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .hosting-grid
 {
     background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.most-popular-container
+.show-more
 {
-    background-color: chartreuse;
+    font-weight: bold;
+    margin-left: 50px;
 }
+/*hosting*/
 
+/*most-popular*/
 .most-popular-grid img
 {
     width: 180px;
@@ -167,12 +182,29 @@ h2
     object-fit: cover;
 }
 
+.most-popular-container
+{
+    background-color: chartreuse;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+
+.most-popular-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .most-popular-grid
 {
     background-color: coral;
+    display: flex;
+    flex-direction: column;
 }
-
-
+/*most-popular*/
 /*second-container*/
 
 .third-container
