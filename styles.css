@@ -64,7 +64,12 @@ nav ul
     border-right: none;
     border-left: none;
     border-top: #F2F2F2 1px solid;
-    border-bottom: #F2F2F2 1px solid
+    border-bottom: #F2F2F2 1px solid;
+    width: 200px;
+    padding: 0 15px;
+    font-weight: bold;
+
+    
 }
 
 button
@@ -72,7 +77,8 @@ button
     background-color: #0065FC;
     color: white;
     border: none;
-    border-radius: 0 12px 12px 0
+    border-radius: 0 12px 12px 0;
+    width: 100px;
 }
 /*search-bar*/
 
@@ -104,7 +110,7 @@ h2
     background-color: #DEEBFF;
     color: #0065FC;
     border-radius: 100%;
-    padding: 13px 15px;
+    padding: 14px 15px;
     margin: -2px;
 }
 
@@ -140,13 +146,6 @@ h2
 }
 
 /*hosting*/
-.hosting-grid img
-{
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-}
-
 .hosting-container
 {
     background-color: chartreuse;
@@ -165,8 +164,43 @@ h2
     background-color: coral;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
+.hosting-card
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px;
+    height: 260px;
+}
+
+.hosting-card-figure
+{
+    margin: 0;
+}
+
+.hosting-grid img
+{
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.hosting-card-title
+{
+    margin: 4px 12px 0px 12px;
+}
+
+.hosting-price
+{
+    margin: 4px 12px 4px 12px;
+}
+
+.hosting-card-stats
+{
+    margin: 0px 12px 4px 12px;
+}
 .show-more
 {
     font-weight: bold;
@@ -175,13 +209,6 @@ h2
 /*hosting*/
 
 /*most-popular*/
-.most-popular-grid img
-{
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-}
-
 .most-popular-container
 {
     background-color: chartreuse;
@@ -203,7 +230,47 @@ h2
     background-color: coral;
     display: flex;
     flex-direction: column;
+    margin: 0px 20px 0px 20px;
 }
+
+.popular-card
+{
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin: 10px;
+}
+
+.popular-card-figure
+{
+    margin: 0;
+    padding: 7px;
+    display: flex;
+}
+
+
+.most-popular-grid img
+{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.popular-card-title
+{
+    margin: 4px 12px 0 12px;
+}
+
+.popular-price
+{
+    margin: 4px 12px 4px 12px;
+}
+
+.popular-card-stats
+{
+    margin: 85px 12px 4px 12px;
+}
+
 /*most-popular*/
 /*second-container*/
 
