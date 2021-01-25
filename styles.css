@@ -172,6 +172,7 @@ h2
     background-color: white;
     border-radius: 15px;
     padding: 7px;
+    margin: 20px;
     height: 260px;
 }
 
@@ -182,7 +183,8 @@ h2
 
 .hosting-grid img
 {
-    height: 180px;
+    height: 120px;
+    width: 250px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
@@ -200,10 +202,13 @@ h2
 .hosting-card-stats
 {
     margin: 0px 12px 4px 12px;
+    color:#0065FC;
 }
+
 .show-more
 {
     font-weight: bold;
+    font-size: 18px;
     margin-left: 50px;
 }
 /*hosting*/
@@ -230,7 +235,7 @@ h2
     background-color: coral;
     display: flex;
     flex-direction: column;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 15px 20px;
 }
 
 .popular-card
@@ -269,6 +274,7 @@ h2
 .popular-card-stats
 {
     margin: 85px 12px 4px 12px;
+    color: #0065FC;
 }
 
 /*most-popular*/
@@ -277,17 +283,26 @@ h2
 .third-container
 {
     display: grid;
+    background-color: darkorange;
 }
+
 .activity-title
 {
     grid-column: 1/-1;
+}
+
+.third-container img
+{
+    height: 180px;
+    width: 200px;
+
 }
 /*main-page*/
 
 /*footer*/
 footer
 {
-    background-color: chartreuse;
+    background-color: #F2F2F2;
     display: flex; 
 }
 
@@ -300,6 +315,60 @@ footer
 .footer-container ul
 {
     list-style: none;
+}
+
+.footer-about
+{
+    width: 33%;
+    padding: 30px 30px;
+}
+
+.footer-about-title
+{
+    margin: 40px 10px 8px 40px;;
+}
+
+.list-about
+{
+    list-style: none;
+    line-height: 30px;
+    width: 250px;
+}
+
+.footer-hosting
+{
+    width: 33%;
+    padding: 30px 30px;
+}
+
+.footer-hosting-title
+{
+    margin: 40px 10px 8px 40px;
+}
+
+.list-hosting
+{
+    list-style: none;
+    line-height: 30px;
+    width: 250px;
+}
+
+.footer-assistance
+{
+    width: 33%;
+    padding: 30px 30px;
+}
+
+.footer-assistance-title
+{
+    margin: 40px 10px 8px 40px;
+}
+
+.list-assistance
+{
+    list-style: none;
+    line-height: 30px;
+    width: 250px;
 }
 /*footer*/
 
