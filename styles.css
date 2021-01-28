@@ -12,16 +12,13 @@ a
     color: black;
 }
 
-.bloc-page
-{
-    margin: 0 10% 0 10%;
-}
 /* header*/
 header
 {
     display: flex;
     justify-content: space-between;
     background-color: blueviolet;
+    margin: 0 10% 0 10%;
 }
 
 nav ul
@@ -83,6 +80,10 @@ button
 /*search-bar*/
 
 /*filter*/
+.first-container
+{
+    margin: 0 10% 0 10%;
+}
 .filter-container
 {
     display: flex;
@@ -142,15 +143,16 @@ h2
 {
     display: flex;
     justify-content: space-between;
+    margin: 0 10% 0 10%;
 
 }
 
 /*hosting*/
 .hosting-container
 {
-    background-color: chartreuse;
+    background-color: #F2F2F2;
     border-radius: 15px;
-    width: 1050px;
+    height: 750px;
 }
 
 .hosting-title
@@ -161,27 +163,31 @@ h2
 
 .hosting-grid
 {
-    background-color: coral;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    background-color: #F2F2F2;
 }
 
 .hosting-card
 {
-    background-color: white;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     border-radius: 15px;
 }
 
 .hosting-card-figure
 {
-    margin: 0;
+    width: 30%;
+    margin: 0px 0px 20px 0px ;
+    background-color: white;
+    padding: 6px;
+    border-radius: 15px;
 }
 
 .hosting-grid img
 {
-    height: 120px;
-    width: 250px;
+    height: 180px;
+    width: 100%;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
@@ -202,11 +208,14 @@ h2
     color:#0065FC;
 }
 
+.show-more-link
+{
+    margin: 30px 0px 30px 50px;
+}
 .show-more
 {
     font-weight: bold;
     font-size: 18px;
-    margin-left: 50px;
 }
 /*hosting*/
 
@@ -281,18 +290,52 @@ h2
 {
     display: grid;
     background-color: darkorange;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    margin: 0 10% 0 10%;
 }
 
 .activity-title
 {
     grid-column: 1/-1;
+    margin-left: 40px;
 }
 
 .third-container img
 {
-    height: 180px;
-    width: 200px;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
 
+.activity-1
+{
+    background-color: white;
+}
+
+.activity-2
+{
+    background-color: white;
+}
+
+.activity-3
+{
+    background-color: white;
+}
+
+.activity-4
+{
+    background-color: white;
+}
+
+.activity-5
+{
+    background-color: white;
+}
+
+.activity-6
+{
+    background-color: white;
 }
 /*main-page*/
 
@@ -300,13 +343,13 @@ h2
 footer
 {
     background-color: #F2F2F2;
-    display: flex; 
 }
 
 .footer-container
 {
     display: flex;
-    margin: auto;
+    margin-left: 120px;
+    margin-right: 80px;
 }
 
 .footer-container ul
@@ -316,7 +359,7 @@ footer
 
 .footer-about
 {
-    width: 33%;
+    width: 30%;
     padding: 30px 30px;
 }
 
@@ -334,7 +377,7 @@ footer
 
 .footer-hosting
 {
-    width: 33%;
+    width: 30%;
     padding: 30px 30px;
 }
 
@@ -352,7 +395,7 @@ footer
 
 .footer-assistance
 {
-    width: 33%;
+    width: 30%;
     padding: 30px 30px;
 }
 
