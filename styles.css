@@ -307,32 +307,54 @@ h2
 .activity-1
 {
     background-color: white;
+    width: 100%;
 }
 
 .activity-2
 {
     background-color: white;
+    width: 100%;
+}
+
+.activity-card-1
+{
+    width: 100%;
 }
 
 .activity-3
 {
     background-color: white;
+    width: 100%;
 }
 
 .activity-4
 {
     background-color: white;
+    width: 100%;
+}
+
+.activity-card-2
+{
+    width: 100%;
 }
 
 .activity-5
 {
     background-color: white;
+    width: 100%;
 }
 
 .activity-6
 {
     background-color: white;
+    width: 100%;
 }
+
+.title-activity
+{
+    margin: 20px 24px;
+}
+
 /*main-page*/
 
 /*footer*/
