@@ -31,6 +31,44 @@ nav ul
     width: 300px;
     background-color: yellow;
 }
+
+/*Pseudo-classe*/
+.anchor-hosting:link
+{
+    color: black;
+}
+.anchor-hosting:visited
+{
+    color: #DEEBFF;
+}
+.anchor-hosting:hover
+{
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+.anchor-hosting:active
+{
+    font-size: 18px;
+}
+
+.anchor-activity:link
+{
+    color: black;
+}
+.anchor-activity:visited
+{
+    color: #DEEBFF;
+}
+.anchor-activity:hover
+{
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+.anchor-activity:active
+{
+    font-size: 18px;
+}
+/*Pseudo-classe*/
 /*header*/
 
 /*main-page*/
@@ -289,6 +327,7 @@ h2
     column-gap: 30px;
     margin: 0 10% 0 10%;
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .activity-title
