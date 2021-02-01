@@ -167,6 +167,7 @@ h2
     background-color: #F2F2F2;
     border-radius: 15px;
     height: 750px;
+    width: 65%;
 }
 
 .hosting-title
@@ -239,6 +240,7 @@ h2
     background-color: chartreuse;
     border-radius: 15px;
     margin-left: 40px;
+    width: 30%;
 }
 
 .most-popular-title
@@ -248,11 +250,6 @@ h2
     justify-content: space-between;
     margin-left: 30px;
     margin-top: 30px;
-}
-
-.most-popular-grid
-{
-    background-color: coral;
 }
 
 .popular-card
@@ -267,13 +264,14 @@ h2
     border-radius: 15px;
     padding: 7px;
     display: flex;
+    width: 80%;
 }
 
 
-.most-popular-grid img
+.popular-card-figure img
 {
-    width: 180px;
-    height: 180px;
+    width: 45%;
+    height: 100%;
     object-fit: cover;
     border-radius: 15px 0px 0px 15px;
 }
