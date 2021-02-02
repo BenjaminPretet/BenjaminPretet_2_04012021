@@ -27,10 +27,15 @@ nav ul
     display: flex;
     justify-content: space-between;
     list-style: none;
+    padding-right: 26px;
     padding-left: 0;
     width: 300px;
 }
 
+header li a
+{
+    padding: 0px 15px 0px 15px
+}
 /*Pseudo-classe*/
 .anchor-hosting a:visited, .anchor-activity a:visited, .link-registration:visited
 {
@@ -40,7 +45,7 @@ nav ul
 {
     border-top: 3px solid #0065FC;
     color: #0065FC;
-    padding: 33px;
+    padding-top: 33px;
 }
 .anchor-hosting:active, .anchor-activity:active, .link-registration:active
 {
@@ -198,6 +203,7 @@ h2
     background-color: white;
     padding: 6px;
     border-radius: 15px;
+    box-shadow: 0 0 20px grey;
 }
 
 .hosting-grid img
@@ -263,9 +269,12 @@ h2
 {
     background-color: white;
     border-radius: 15px;
+    margin: 26px 0px 0px 14px ;
     padding: 7px;
     display: flex;
-    width: 80%;
+    height: 180px;
+    width: 90%;
+    box-shadow: 0 0 20px grey;
 }
 
 
@@ -288,7 +297,7 @@ h2
 
 .popular-card-stats
 {
-    margin: 45px 12px 4px 12px;
+    margin: 80px 12px 4px 12px;
     color: #0065FC;
 }
 
