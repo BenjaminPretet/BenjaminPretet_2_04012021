@@ -18,7 +18,8 @@ header
 {
     display: flex;
     justify-content: space-between;
-    margin: 0 10% 0 10%;
+    margin: 20px 10% 25px 10%;
+
 }
 
 nav ul
@@ -31,20 +32,20 @@ nav ul
 }
 
 /*Pseudo-classe*/
-.anchor-hosting:visited, .anchor-activity:visited
+.anchor-hosting a:visited, .anchor-activity a:visited, .link-registration:visited
 {
     color: #DEEBFF;
 }
-.anchor-hosting:hover, .anchor-activity:hover
+.anchor-hosting a:hover, .anchor-activity a:hover
 {
     border-top: 3px solid #0065FC;
     color: #0065FC;
+    padding: 33px;
 }
-.anchor-hosting:active, .anchor-activity:active
+.anchor-hosting:active, .anchor-activity:active, .link-registration:active
 {
     font-size: 18px;
 }
-
 
 /*Pseudo-classe*/
 /*header*/
@@ -271,7 +272,6 @@ h2
 .popular-card-figure img
 {
     width: 45%;
-    height: 100%;
     object-fit: cover;
     border-radius: 15px 0px 0px 15px;
 }
@@ -288,7 +288,7 @@ h2
 
 .popular-card-stats
 {
-    margin: 85px 12px 4px 12px;
+    margin: 45px 12px 4px 12px;
     color: #0065FC;
 }
 
@@ -298,12 +298,10 @@ h2
 .third-container
 {
     display: grid;
-    background-color: darkorange;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
-    margin: 0 10% 0 10%;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    height: 850px;
+    margin: 20px 10% 60px 10%;
 }
 
 .activity-title
@@ -312,59 +310,89 @@ h2
     margin-left: 40px;
 }
 
-.third-container img
+.title-activity-card
+{
+    margin: 20px 24px;
+}
+.item
+{
+    height: 85%;
+    border-radius: 15px 15px 15px 15px;
+    margin: 0px;
+    box-shadow: 0 0 20px grey;
+}
+
+.item img
 {
     width: 100%;
     height: 90%;
     object-fit: cover;
+    border-radius: 15px 15px 0 0
+    ;
 }
 
-.activity-1
+.first-column .first-item
 {
-    background-color: white;
+    height: 50%;
+    margin: 0px 0px 30px 0px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 20px grey;
 }
 
-.activity-2
+.first-column .first-item img
 {
-    background-color: white;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0
 }
 
-.activity-card-1
+.first-column .second-item
 {
-
+    height: 32%;
+    margin: 0px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 20px grey;
 }
 
-.activity-3
+.first-column .second-item img
 {
-    background-color: white;
+    width: 100%;
+    height: 73%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0
 }
 
-.activity-4
+.second-column .first-item
 {
-    background-color: white;
-
+    height: 38%;
+    margin: 0px 0px 30px 0px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 20px grey;
 }
 
-.activity-card-2
+.second-column .first-item img
 {
-
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0 
 }
-
-.activity-5
+.second-column .second-item
 {
-    background-color: white;
+    height: 44%;
+    margin: 0px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 20px grey;
 }
 
-.activity-6
+.second-column .second-item img
 {
-    background-color: white;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0
 }
-
-.title-activity
-{
-    margin: 20px 24px;
-}
-
 /*main-page*/
 
 /*footer*/
