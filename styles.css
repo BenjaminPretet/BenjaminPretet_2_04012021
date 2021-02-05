@@ -128,6 +128,24 @@ h2
     margin-right: 30px;
 }
 
+.first-filter-icon
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;
+    padding: 16px 15px;
+    margin: -2px;
+}
+
+.second-filter-icon
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;
+    padding: 14px 16px;
+    margin: -2px;
+}
+
 .filter-icon
 {
     background-color: #DEEBFF;
@@ -591,6 +609,64 @@ footer
     }
     /*search-bar*/
 
+    /*filter*/
+.first-container
+{
+    margin: 0 10% 0 10%;
+}
+.filter-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15px;
+}
 
+h2
+{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.filter
+{
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    margin: 0px 30px 10px 0px ;
+}
+
+.filter-icon
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;
+    padding: 14px 15px;
+}
+
+.filter-title
+{
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.filter-info
+{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 10px 0 15px 0;
+}
+
+.info-icon
+{
+    border: solid 1px #d9d9d9;
+    color: #0065FC;
+    padding: 10px 15px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+/*filter*/
 
 }  
