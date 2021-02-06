@@ -275,8 +275,7 @@ h2
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin: 30px 30px 0px 30px;
 }
 
 .popular-card
@@ -614,6 +613,7 @@ footer
 {
     margin: 0 10% 0 10%;
 }
+
 .filter-container
 {
     display: flex;
@@ -668,5 +668,146 @@ h2
     margin-right: 10px;
 }
 /*filter*/
+/* first-container*/
+
+/*second-container*/
+.second-container
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.most-popular-container
+{
+    background-color: #F2F2F2;
+    height: 570px;
+}
+
+.most-popular-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 30px 16px 0px 20px;
+}
+
+.popular-card
+{
+    border-radius: 15px 15px 15px 15px;
+    margin: 10px;
+}
+
+.popular-card-figure
+{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    margin: 26px 0px 0px 8px ;
+    padding: 7px;
+    height: 120px;
+    width: 90%;
+    box-shadow: 0 0 20px grey;
+}
+
+
+.popular-card-figure img
+{
+    width: 45%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.popular-card-title
+{
+    font-size: 14px;
+    margin: 8px 12px 0 12px;
+}
+
+.popular-price
+{
+    font-size: 12px;
+    margin: 8px 12px 4px 12px;
+}
+
+.popular-card-stats
+{
+    font-size: 14px;
+    margin: 36px 12px 4px 12px;
+    color: #0065FC;
+}
+/*most-popular*/
+
+/*hosting*/
+.hosting-container
+{
+
+    height: 1400px;
+}
+
+.hosting-title
+{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.hosting-grid
+{
+}
+
+.hosting-card
+{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.hosting-card-figure
+{
+    margin: 0px 16px 20px 16px ;
+    background-color: white;
+    padding: 6px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px grey;
+}
+
+.hosting-grid img
+{
+    height: 100px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.hosting-card-title
+{
+    font-size: 16px;
+    margin: 4px 12px 6px 12px;
+}
+
+.hosting-price
+{
+    font-size: 14px;
+    margin: 4px 12px 6px 12px;
+}
+
+.hosting-card-stats
+{
+    font-size: 14px;
+    margin: 0px 12px 4px 12px;
+    color:#0065FC;
+}
+
+.show-more-link
+{
+    margin: 30px 0px 30px 50px;
+}
+.show-more
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+/*hosting*/
 
 }  
