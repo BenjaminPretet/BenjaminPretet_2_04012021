@@ -99,6 +99,11 @@ button
     border-radius: 0 12px 12px 0;
     width: 100px;
 }
+
+.search-icon
+{
+    font-size: 0px;
+}
 /*search-bar*/
 
 /*filter*/
@@ -595,7 +600,7 @@ footer
         border-left: none;
         border-top: #F2F2F2 1px solid;
         border-bottom: #F2F2F2 1px solid;
-        width: 160px;
+        width: 200px;
         padding: 0 15px;
         font-weight: bold;
     }
@@ -605,8 +610,14 @@ footer
         background-color: #0065FC;
         color: white;
         border: none;
-        border-radius: 0 12px 12px 0;
-        width: 60px;
+        border-radius: 12px;
+        width: 40px;
+        font-size: 0px;
+    }
+
+    .search-icon
+    {
+        font-size: 14px;
     }
     /*search-bar*/
 
