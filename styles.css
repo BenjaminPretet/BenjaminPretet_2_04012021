@@ -1200,7 +1200,7 @@ footer
         align-items: center;
         border: 2px solid #F2F2F2;
         border-radius: 25px;
-        margin: 0px 12px 20px 0px ;
+        margin: 0px 18px 20px 0px ;
     }
 
     .first-filter-icon
@@ -1239,7 +1239,7 @@ footer
     {
         display: flex;
         align-items: center;
-        font-size: 12px;
+        font-size: 17px;
         margin: 10px 0 15px 0;
     }
 
@@ -1247,12 +1247,177 @@ footer
     {
         border: solid 1px #d9d9d9;
         color: #0065FC;
-        font-size: 12px;
-        padding: 6px 10px;
+        font-size: 16px;
+        padding: 11px 15px;
         border-radius: 100%;
         margin-right: 10px;
     }
 
     /*filter*/
     /* first-container*/
+
+    /*second-container*/
+    .second-container
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .most-popular-container
+    {
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        height: 570px;
+        width: 100%;
+        margin-left: 0;
+
+
+    }
+
+    .most-popular-title
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+        margin: 30px 16px 0px 20px;
+    }
+
+    .popular-card
+    {
+        border-radius: 15px 15px 15px 15px;
+        margin: 10px;
+    }
+
+    .popular-card-figure
+    {
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        margin: 26px 0px 0px 8px ;
+        padding: 7px;
+        height: 120px;
+        width: 90%;
+        box-shadow: 0 0 20px #A9A9A9;
+    }
+
+
+    .popular-card-figure img
+    {
+        width: 45%;
+        object-fit: cover;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .popular-card-title
+    {
+        font-size: 14px;
+        margin: 8px 12px 0 12px;
+    }
+
+    .popular-price
+    {
+        font-size: 12px;
+        margin: 8px 12px 4px 12px;
+    }
+
+    .first-popular-card-stats
+    {
+        font-size: 14px;
+        margin: 50px 12px 4px 12px;
+        color: #0065FC;
+    }
+
+    .second-popular-card-stats
+    {
+        font-size: 14px;
+        margin: 36px 12px 4px 12px;
+        color: #0065FC;
+    }
+
+    .third-popular-card-stats
+    {
+        font-size: 14px;
+        margin: 50px 12px 4px 12px;
+        color: #0065FC;
+    }
+
+    /*most-popular*/
+
+    /*hosting*/
+    .hosting-container
+    {
+        height: 1400px;
+        width:100%;
+        background-color: transparent;
+    }
+
+    .hosting-title
+    {
+        font-size: 20px;
+        margin: 30px 16px 20px 20px;
+    }
+
+    .hosting-grid
+    {
+        background-color: transparent;
+    }
+
+    .hosting-card
+    {
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hosting-card-figure
+    {
+        width: 86%;
+        margin: 0px 16px 20px 16px ;
+        background-color: white;
+        padding: 6px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px #A9A9A9;
+    }
+
+    .hosting-grid img
+    {
+        height: 100px;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+
+    .hosting-card-title
+    {
+        font-size: 16px;
+        margin: 4px 12px 6px 12px;
+    }
+
+    .hosting-price
+    {
+        font-size: 14px;
+        margin: 4px 12px 6px 12px;
+    }
+
+    .hosting-card-stats
+    {
+        font-size: 14px;
+        margin: 0px 12px 4px 12px;
+        color:#0065FC;
+    }
+
+    .show-more-link
+    {
+        margin: 30px 0px 30px 30px;
+    }
+    .show-more
+    {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    /*hosting*/
+
+
 }
