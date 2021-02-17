@@ -3,7 +3,6 @@ body
 {
     font-family: Raleway, sans-serif;
     margin: 0;
-    padding: 0;
 }
 
 a
@@ -591,13 +590,13 @@ footer
         border-bottom: 3px solid #0065FC;
         border-top: 0px;
         color: #0065FC;
-        padding: 0px 0px 15px 0px;
+        padding: 0px 20px 12px 20px;
         
     }
 
     .anchor-hosting:active, .anchor-activity:active, .link-registration:active
     {
-        font-size: 18px;
+        font-size: 10px;
     }
     /*pseudo-classe*/
     /*header*/
@@ -1111,12 +1110,13 @@ footer
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        margin: 0;
     }
 
     header img
     {
-        width: 80%;
-        margin-left: 32px;
+        width: 50%;
+        margin: 20px 0px 0px 22px
     }
     
     nav ul
@@ -1124,14 +1124,32 @@ footer
         display: flex;
         justify-content: space-between;
         list-style: none;
-        padding-right: 26px;
-        padding-left: 0;
+        margin: 0;
         width: 100px;
     }
 
-    header li a 
+    .link-registration
     {
-        font-size: 15px;
+        grid-column: 2;
+        grid-row: 1;
+        margin-left: 90px;
+        margin-top: 26px;
+        font-size: 18;
+    }
+
+    header li a
+    {
+        font-size: 18px;
+    }
+    
+    .anchor-hosting
+    {
+        padding: 0px 0px 0px 30px
+    }
+
+    .anchor-activity
+    {
+        padding: 0px 0px 0px 55px
     }
 
     /*pseudo-classe*/
@@ -1143,7 +1161,10 @@ footer
     .anchor-hosting a:hover, .anchor-activity a:hover
     {
         border-bottom: 3px solid #0065FC;
+        border-top: 0px;
         color: #0065FC;
+        padding: 0px 20px 18px 20px;
+        
     }
 
     .anchor-hosting:active, .anchor-activity:active, .link-registration:active
@@ -1685,14 +1706,13 @@ footer
     /*header*/
     header
     {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        display: flex
+        
     }
 
     header img
     {
-        width: 80%;
+        width: 100%;
         margin-left: 32px;
     }
     
