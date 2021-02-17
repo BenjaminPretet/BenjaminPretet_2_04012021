@@ -1706,14 +1706,15 @@ footer
     /*header*/
     header
     {
-        display: flex
+        display: flex;
+        flex-direction: column;
         
     }
 
     header img
     {
-        width: 100%;
-        margin-left: 32px;
+        width: 40%;
+        margin-left: 0px;
     }
     
     nav ul
@@ -1721,14 +1722,20 @@ footer
         display: flex;
         justify-content: space-between;
         list-style: none;
+        margin-left: -200px;
         padding-right: 26px;
         padding-left: 0;
         width: 100px;
     }
 
+    .link-registration
+    {
+        font-size: 20px;
+    }
+
     header li a 
     {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     /*pseudo-classe*/
