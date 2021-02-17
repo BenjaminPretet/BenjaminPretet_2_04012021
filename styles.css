@@ -22,6 +22,7 @@ header
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 20px 10% 25px 10%;
 
 }
@@ -31,10 +32,11 @@ nav ul
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-right: 26px;
+    margin-left: 1090px;
     padding-left: 0;
-    width: 300px;
+    
 }
+
 
 header li a
 {
@@ -518,8 +520,6 @@ footer
     body
     {
         font-family: Raleway, sans-serif;
-        margin: 0;
-        padding: 0;
     }
     
     a
@@ -539,12 +539,13 @@ footer
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        margin: 0;
     }
 
     header img
     {
-        width: 80%;
-        margin-left: 32px;
+        width: 60%;
+        margin: 20px 0px 0px 14px
     }
     
     nav ul
@@ -552,14 +553,31 @@ footer
         display: flex;
         justify-content: space-between;
         list-style: none;
-        padding-right: 26px;
-        padding-left: 0;
+        margin: 0;
         width: 100px;
     }
 
-    header li a 
+    .link-registration
+    {
+        grid-column: 2;
+        grid-row: 1;
+        margin-left: 70px;
+        margin-top: 26px;
+    }
+
+    header li a
     {
         font-size: 15px;
+    }
+    
+    .anchor-hosting
+    {
+        padding: 0px 15px 0px 15px
+    }
+
+    .anchor-activity
+    {
+        padding: 0px 15px 0px 18px
     }
 
     /*pseudo-classe*/
@@ -571,7 +589,10 @@ footer
     .anchor-hosting a:hover, .anchor-activity a:hover
     {
         border-bottom: 3px solid #0065FC;
+        border-top: 0px;
         color: #0065FC;
+        padding: 0px 0px 15px 0px;
+        
     }
 
     .anchor-hosting:active, .anchor-activity:active, .link-registration:active
@@ -1950,7 +1971,7 @@ footer
     /*hosting*/
     .hosting-container
     {
-        height: 2130px;
+        height: 1150px;
         width:100%;
         background-color: transparent;
     }
@@ -1970,12 +1991,12 @@ footer
     {
         
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .hosting-card-figure
     {
-        width: 86%;
+        width: 40%;
         margin: 0px 16px 30px 20px ;
         background-color: white;
         padding: 6px;
