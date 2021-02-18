@@ -1706,35 +1706,44 @@ footer
     /*header*/
     header
     {
-        display: flex;
-        flex-direction: column;
-        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     header img
     {
-        width: 40%;
-        margin-left: 0px;
+        width: 60%;
+        margin: 0px 0px 0px 206px;
     }
     
+    nav
+    {
+        grid-column: 1;
+        grid-row: 2;
+        
+    }
     nav ul
     {
         display: flex;
         justify-content: space-between;
         list-style: none;
-        margin-left: -200px;
-        padding-right: 26px;
-        padding-left: 0;
+        margin: 0px 0px 0px 60px;
+        padding: 0;
         width: 100px;
     }
 
     .link-registration
     {
+        grid-column: 2;
+        grid-row: 2;
+        margin-left: 75px;
         font-size: 20px;
     }
 
     header li a 
     {
+        padding: 0px 20px 20px 20px;
         font-size: 20px;
     }
 
@@ -1747,6 +1756,7 @@ footer
     .anchor-hosting a:hover, .anchor-activity a:hover
     {
         border-bottom: 3px solid #0065FC;
+        border-top: none;
         color: #0065FC;
     }
 
