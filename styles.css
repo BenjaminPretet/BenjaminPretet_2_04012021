@@ -64,12 +64,14 @@ header li a
 /*first-container*/
 .search-title h1
 {
-    margin-bottom: 1px;
+    font-size: 30px ;
+    margin-bottom: 2px;
 }
 
 .search-title p
 {
-    margin-top: 2px;
+    font-size: 20px;
+    margin-top: 3px;
 }
 
 /*search-bar*/
@@ -81,7 +83,7 @@ header li a
 .search-bar-icon
 {
     background-color: #F2F2F2;
-    padding: 10px 15px;
+    padding: 15px 20px;
     border-radius: 25% 0 0 25%;
 }
 
@@ -91,7 +93,7 @@ header li a
     border-left: none;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
-    width: 200px;
+    width: 250px;
     padding: 0 15px;
     font-weight: bold;
 }
@@ -192,6 +194,11 @@ h2
     border-radius: 100%;
     margin-right: 10px;
 }
+
+.filter:hover
+{
+    transform: scale(1.05);
+}
 /*filter*/
 /*first-container*/
 
@@ -242,6 +249,11 @@ h2
     box-shadow: 0 0 15px #A9A9A9;
 }
 
+.hosting-card-figure figure
+{
+    margin: 0;
+}
+
 .hosting-grid img
 {
     height: 180px;
@@ -274,6 +286,11 @@ h2
 {
     font-weight: bold;
     font-size: 18px;
+}
+
+.hosting-card a:hover
+{
+    transform: scale(1.02);
 }
 /*hosting*/
 
